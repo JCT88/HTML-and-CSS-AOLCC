@@ -2,14 +2,15 @@
 <html lang="en">
     <title>The Space Station | Resort</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/animations.css">
     <body>
 
         <!-- nav -->
-        <div>
-            <div>
-                <ul>
-                    <a href="#home" id="link"><li>Home</li></a>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home"><li>Home</li></a>
                     <a href="#gallery"><li>Gallery</li></a>
                     <a href="#contact"><li>Reservation</li></a>
                 </ul>
@@ -20,9 +21,9 @@
 
         <!-- home -->
         <div id="home">
-            <div>
-                <div>
-                    <span>The Space Station</span>
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">The Space Station</span>
                 </div>
             </div>
         </div>
@@ -31,14 +32,16 @@
         <!-- gallery -->
         <section>
             <div id="gallery">
-                <h1>Gallery</h1>
-                <div>
+                <div class="container">
+                    <h1>Gallery</h1>
+                </div>
+                <div class="flex-container">
+                    <div class="photo-container">
                     <!-- photo container 1 -->
-                    <div>
-                        <div>
+                        <div class="photo">
                             <img src="./images/thumb/thumb_1.jpg" alt="Astronaut in space">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -46,11 +49,11 @@
                     <!-- end photo container 1 -->
 
                     <!-- photo container 2 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_2.jpg" alt="The Earth">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_2.jpg" alt="Earth">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -58,11 +61,11 @@
                     <!-- end photo container 2 -->
 
                     <!-- photo container 3 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_3.jpg" alt="Red Quasar">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_3.jpg" alt="Red quasar">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -70,11 +73,11 @@
                     <!-- end photo container 3 -->
 
                     <!-- photo container 4 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_4.jpg" alt="Galaxy and Sun reflecting on the Earth">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_4.jpg" alt="Galaxy and sun reflecting on Earths ocean">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -82,11 +85,11 @@
                     <!-- end photo container 4 -->
 
                     <!-- photo container 5 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_5.jpg" alt="Blue stary sky">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_5.jpg" alt="Blue stars">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -94,11 +97,11 @@
                     <!-- end photo container 5 -->
 
                     <!-- photo container 6 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_6.jpg" alt="Purple gas cloud in space">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_6.jpg" alt="Purple gas cloud">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -106,11 +109,11 @@
                     <!-- end photo container 6 -->
 
                     <!-- photo container 7 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_7.jpg" alt="Shuttle taking off">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_7.jpg" alt="Space shuttle taking off">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -118,11 +121,11 @@
                     <!-- end photo container 7 -->
 
                     <!-- photo container 8 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_8.jpg" alt="Orange gas cloud iin space">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_8.jpg" alt="Giant gas nebula">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -130,11 +133,11 @@
                     <!-- end photo container 8 -->
 
                     <!-- photo container 9 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumb_9.jpg" alt="Random stars in the sky">
-                            <div>
-                                <h3>Click to Enlarge</h3>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_9.jpg" alt="Galaxy cluster">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight today!</p>
                             </div>
                         </div>
@@ -148,24 +151,26 @@
         <!-- rsvp -->
         <section>
             <div id="contact">
-                <div>
-                    <h1>Reservations</h1>
-                    <div>
+                <div class="container">
+                    <div class="heading-padding">
+                        <h1 class="heading-padding">Reservations</h1>
+                    </div>
+                    <div class="reservation">
                         <h2><span>Your adventure is just around the moon.</span><br>
                             Reserve your flight today!</h2>
-                            <p>
-                                Please provide us with your basic information
+                            <p class="rsvp-text">
+                                Please provide us with your basic contact information
                             </p>
-                            <div>
+                            <div class="form-rsvp">
                                 <form action="" method="post">
-                                    <input type="text" value="First name" class="rsvp">
-                                    <input type="text" value="Last name" class="rsvp">
-                                    <input type="text" value="Email" class="rsvp">
-                                    <input type="text" value="Phone number" class="rsvp">
+                                    <input type="text" value="" placeholder="First Name" class="rsvp">
+                                    <input type="text" value="" placeholder="Last Name" class="rsvp">
+                                    <input type="text" value="" placeholder="Email" class="rsvp">
+                                    <input type="text" value="" placeholder="Phone Number" class="rsvp">
                                     <div class="form-spacer">
-                                        <label for="" class="terms"><em>Terms and conditions</em></label>
+                                        <label class="terms">Terms and conditions</label>
                                     </div>
-                                    <div>
+                                    <div class="submit">
                                         <input type="submit" value="Submit">
                                     </div>
                                 </form>
@@ -177,7 +182,9 @@
         <!-- end rsvp -->
 
         <!-- footer -->
+        <div id="footer">
             www.thespacestation.space &nbsp;|&nbsp; &copy; 2016
+        </div>
         <!-- end footer -->
 
     </body>
